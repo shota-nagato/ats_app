@@ -1,0 +1,9 @@
+@layer utilities {
+  .form-group label {
+    @apply block text-gray-700 text-sm font-bold mb-2
+  }
+
+  .form-group input, .form-group select {
+    @apply shadow border-gray-200 rounded w-full;
+  }
+}

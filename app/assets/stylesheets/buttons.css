@@ -1,0 +1,9 @@
+@layer components {
+  .btn {
+    @apply px-4 py-2 hover:cursor-pointer rounded;
+  }
+
+  .btn-primary {
+    @apply font-bold bg-blue-500 hover:bg-blue-700 text-white focus:ring-blue-500;
+  }
+}
