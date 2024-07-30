@@ -45,7 +45,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
 
   def build_resource(hash = {})
     self.resource = resource_class.new_with_session(hash, session)
-    self.resource.admin = true
+    resource.admin = true
   end
 
   # If you have extra params to permit, append them to the sanitizer.
